@@ -3,12 +3,15 @@
     padding: 0;
 }
 
-.navbar ul {
+.navbar {
     display: flex;
+    justify-content: flex-end;
     list-style-type: none;
-    margin-left: 86%;
     padding: 15px;
-    gap: 8px;
+}
+
+.navbarItem {
+    margin: 10px;
 }
 
 .googleImgCenter {
@@ -21,16 +24,24 @@ form {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 8px;
+    gap: 12px;
 }
 
 .inputForm {
     border-radius:10px;
-    line-height: 18px;
+    z-index: 3;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #e7dede;
+    box-shadow: none;
+    margin: 0 auto;
+    width: 2100px;
+    max-width: 584px;
+    margin-top: 8px;
 }
 
 .inputForm:hover {
-    background-color: gray;
+    background-color: rgb(235, 229, 229);
 }
 
 .InputBtn {
@@ -39,5 +50,5 @@ form {
 }
 
 .InputBtn:hover {
-    background-color: gray;
+    background-color: rgb(235, 229, 229);
 }
