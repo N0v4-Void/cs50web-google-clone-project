@@ -5,6 +5,7 @@
 
 .navbar {
     display: flex;
+    flex-direction: row;
     justify-content: flex-end;
     list-style-type: none;
     padding: 15px;
@@ -14,12 +15,12 @@
     margin: 10px;
 }
 
-.googleImgCenter {
+.centerDiv {
     display: flex;
     justify-content: center;
 }
 
-form {
+.searchContainer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,27 +29,95 @@ form {
 }
 
 .inputForm {
-    border-radius:10px;
+    border-radius:24px;
     z-index: 3;
     height: 44px;
     background: #fff;
-    border: 1px solid #e7dede;
+    border: 1px solid #dfe1e5;
     box-shadow: none;
     margin: 0 auto;
     width: 2100px;
     max-width: 584px;
-    margin-top: 8px;
+    margin-top: 25px;
 }
 
 .inputForm:hover {
     background-color: rgb(235, 229, 229);
 }
 
-.InputBtn {
-    border-radius:10px;
-    border-color: transparent;
+
+.InputBtn, .BtnIm {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 
-.InputBtn:hover {
-    background-color: rgb(235, 229, 229);
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+
+.h1-advanced {
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+    font-weight: 200;
+}
+
+.line-break {
+    border-bottom: 1px solid #ebebeb;
+}
+
+.fpw {
+    font-size: large;
+    margin: 45px;
+}
+
+.row-input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 45px;
+}
+
+.left-side {
+    width: 200px;
+}
+
+.form-input {
+    width: 385px;
+    border-radius: 1px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #c0c0c0;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+}
+
+.p-advanced {
+    vertical-align: middle;
 }
